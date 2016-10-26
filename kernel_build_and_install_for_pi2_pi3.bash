@@ -28,7 +28,7 @@
 apt-get install bc
 cd /usr/src
 
-git clone https://github.com/raspberrypi/linux || ( cd ./linux && git pull )
+git clone --depth=1 https://github.com/raspberrypi/linux
 
 cd ./linux
 
