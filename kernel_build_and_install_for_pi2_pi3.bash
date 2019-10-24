@@ -25,7 +25,8 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
 
-apt-get install bc bison flex
+apt-get update
+apt-get install bc bison flex libssl-dev 
 cd /usr/src
 
 git clone --depth=1 https://github.com/raspberrypi/linux || ( cd ./linux && git pull )
